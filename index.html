@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NotizBlock</title>
+
+    <!-- <script src="./scripts/localstorage.js"></script> -->
+    <script src="./script.js"></script>
+    <script src="./scripts/localstorage.js"></script>
+    <script src="./scripts/template.js"></script>
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./styles/standard.css">
+    <link rel="stylesheet" href="./styles/assets.css">
+</head>
+
+<body onload="init()">
+    <h1>NotizBlock</h1>
+    <div class="main-contect">
+        <span>Title</span>
+        <input id="title_input" type="text" placeholder="Title schreiben!">
+        <span>Note</span>
+        <textarea id="note_input" rows="4" cols="50" name="comment" form="usrform" placeholder="Text schreiben!"></textarea>
+        <button onclick="addNote()">Notiz speichern</button>
+    </div>
+
+
+    <!-- <button onclick="renderNotes()">nue rendern</button> -->
+    <section class="main-sec">
+            <div class="notes-content">
+                <h2>Notes</h2>
+                <div id="content"></div>
+            </div>
+
+        <br>
+            <div class="archiv-content">
+                <h2>Archiv</h2>
+                <div id="archiv_content"></div>
+            </div>
+
+        <br>
+            <div class="trash-content">
+                <h2>Trash</h2>
+                <div id="trash_content"></div>
+            </div>
+    </section>
+
+    <!-- <img class="icn" src="./assets/icons/delete_forever.png" alt=""> -->
+</body>
+
+</html>

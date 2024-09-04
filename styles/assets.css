@@ -1,0 +1,83 @@
+/* für kleine elemnte und kompunentz wie buttons  */
+
+h1 {
+    margin: 24px 0px 32px 0px;
+    text-align: center;
+    font-size: 64px;
+}
+
+h2 {
+    font-size: 48px;
+}
+
+p {
+    font-weight: bold;
+    font-size: 24px;
+    box-sizing: border-box;
+    max-width: 450px;
+    max-height: 200px;
+}
+
+span {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+input {
+    margin-bottom: 8px;
+    padding: 8px 24px 8px 24px;
+    color: rgb(20, 21, 21);
+    font-weight: bold;
+    background-color: var(--background-color-dark);
+    border-style: solid;
+    border-color: rgb(17, 17, 17);
+    border-radius: 10px;
+    border-width: 3px;
+}
+
+input:hover {
+    background-color: rgba(151, 134, 38, 0.397);
+}
+
+
+textarea {
+    margin-bottom: 8px;
+    padding: 8px 24px 8px 24px;
+    color: rgb(20, 21, 21);
+    font-weight: bold;
+    background-color: var(--background-color-dark);
+    border-style: solid;
+    border-color: rgb(17, 17, 17);
+    border-radius: 10px;
+    border-width: 3px;
+}
+
+textarea:hover {
+    background-color: rgba(151, 134, 38, 0.397);
+}
+
+
+
+button {
+    padding: 8px 24px 8px 24px;
+    color: rgb(14, 14, 14);
+    font-weight: bold;
+    background-color: rgb(193, 187, 187);
+    text-align: center;
+    border-style: solid;
+    border-color: rgb(17, 17, 17);
+    border-radius: 16px;
+    border-width: 2px;
+}
+
+button:hover {
+    background-color: rgba(151, 134, 38, 0.397);
+}
+
+.icn {
+    width: 24px;
+}
+
+.icn:hover {
+    cursor: pointer;
+}
